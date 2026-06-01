@@ -1,0 +1,16 @@
+:root{
+  --bg:#0b1020;
+  --card:#0f1724;
+  --accent:#6ee7b7;
+  --text:#e6eef8;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:linear-gradient(180deg,#081029 0%,#051022 100%); color:var(--text);}
+.container{max-width:900px;margin:6vh auto;padding:32px;background:rgba(255,255,255,0.02);border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6);}
+.pixel{font-family:'Press Start 2P', monospace; font-size:20px; text-align:center; color:var(--accent); letter-spacing:1px; margin:8px 0 24px;}
+.content h2{font-size:18px;color:var(--accent);margin:0 0 12px;padding-left:6px}
+.advantages p{line-height:1.6;color:#dceefe;margin:0 0 14px;font-size:14px}
+@media(min-width:800px){.pixel{font-size:28px}}
+
+/* Accessibility tweaks */
+.pixel{text-shadow:0 1px 0 rgba(0,0,0,0.7)}
